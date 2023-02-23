@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main-container">
+      <div class="side-bar" id="side-bar">
+        <!-- side menu  -->
+        <div class="side-menu" id="side-menu">
+          <div class="logo">
+            <img
+              src="https://images.pexels.com/photos/4053668/pexels-photo-4053668.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt=""
+            />
+            <h3>Adminator</h3>
+            <span class="material-icons" id="close">close</span>
+          </div>
+          <div class="menu-tabs" id="menu-tabs">
+            <div class="dashboard ds1">
+              <span class="material-icons">dashboard</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted"
+                  >Dashboard</a
+                >
+              </h5>
+            </div>
+
+            <div class="dashboard ds2">
+              <span class="material-icons">email</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted">Email</a>
+              </h5>
+            </div>
+
+            <div class="dashboard ds3">
+              <span class="material-icons">calendar_month</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted">Calendar</a>
+              </h5>
+            </div>
+
+            <div class="dashboard ds4">
+              <span class="material-icons">sms</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted">Chat</a>
+              </h5>
+            </div>
+
+            <div class="dashboard ds5">
+              <span class="material-icons">signal_cellular_alt</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted">Charts</a>
+              </h5>
+            </div>
+
+            <div class="dashboard ds6">
+              <span class="material-icons">edit</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted">Forms</a>
+              </h5>
+            </div>
+
+            <div class="dashboard ds7">
+              <span class="material-icons">palette</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted"
+                  >UI Elements</a
+                >
+              </h5>
+            </div>
+
+            <div class="dashboard ds8">
+              <span class="material-icons">candlestick_chart</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted">Tables</a>
+              </h5>
+            </div>
+
+            <div class="dashboard ds9" id="map">
+              <span class="material-icons">map</span>
+              <h5>
+                <a href="#" class="text-decoration-none text-muted">Maps</a>
+              </h5>
+            </div>
+            <div class="inner-links">
+              <h6 class="mb-2">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Google Map</a
+                >
+              </h6>
+              <h6 class="m-0">
+                <a href="#" class="text-decoration-none text-muted"
+                  >Vactor Map</a
+                >
+              </h6>
+            </div>
+
+            <div class="dashboard ds10">
+              <span class="material-icons">file_copy</span>
+              <h5 class="text-decoration-none text-muted">Files</h5>
+            </div>
+            <div class="inner-links2">
+              <h6 class="mb-2">
+                <a href="#" class="text-decoration-none text-muted">Blank</a>
+              </h6>
+              <h6 class="m-0">
+                <a href="#" class="text-decoration-none text-muted">404</a>
+              </h6>
+            </div>
+
+            <div class="dashboard ds11">
+              <span class="material-icons">storage</span>
+              <h5 class="text-decoration-none text-muted">Multiple Levels</h5>
+            </div>
+            <div class="inner-links3">
+              <h6>
+                <a href="#" class="text-decoration-none text-muted">Blank</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        <!-- side menu end  -->
+      </div>
+      <!-- side-bar end  -->
+
+      <div class="middle-container">
+        <!-- nav  -->
+        <div class="nav-bar">
+          <div class="left-item">
+            <span class="material-icons" id="menu">menu</span>
+            <div class="search1">
+              <input type="search" placeholder="Search" />
+              <span class="material-icons">search</span>
+            </div>
+          </div>
+
+          <div class="right-item">
+            <div class="noti">
+              <span class="material-icons text-muted m-0">notifications</span>
+              <span class="cls1">7</span>
+            </div>
+
+            <div class="msg">
+              <span class="material-icons text-muted m-0">mail</span>
+              <span class="cls2">5</span>
+            </div>
+
+            <div class="img1 m-0">
+              <img
+                src="https://images.pexels.com/photos/2635534/pexels-photo-2635534.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+              />
+              <p class="m-0">Jhon Doe</p>
+            </div>
+          </div>
+        </div>
+        <!-- nav End  -->
+        <div class="main-content mt-4">
+          <div class="row">
+            <div class="col-md-3 inner-main2 bg-white border mb-sm-2 mb-lg-0">
+              <p class="mb-2 text-muted">Total visits</p>
+              <div
+                class="inner d-flex align-items-center justify-content-between"
+              >
+                <img src="download (1).png" alt="" />
+                <p class="m-0">+10%</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 inner-main2 bg-white border mb-sm-2 mb-lg-0">
+              <p class="mb-2 text-muted">Total Page view</p>
+              <div
+                class="inner d-flex align-items-center justify-content-between"
+              >
+                <img src="download (2).png" alt="" />
+                <p class="m-0">+10%</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 inner-main2 bg-white border mb-sm-2 mb-lg-0">
+              <p class="mb-2 text-muted">Unique Visitor</p>
+              <div
+                class="inner d-flex align-items-center justify-content-between"
+              >
+                <img src="download (3).png" alt="" />
+                <p class="m-0">+10%</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 inner-main2 bg-white border mb-sm-2 mb-lg-0">
+              <p class="mb-2 text-muted">Bounce Rate</p>
+              <div
+                class="inner d-flex align-items-center justify-content-between"
+              >
+                <img src="download (4).png" alt="" />
+                <p class="m-0">+10%</p>
+              </div>
+            </div>
+          </div>
+          <!-- main content row end  -->
+          <div class="map-con mt-4">
+            <div class="row">
+              <div class="col-lg-8 bg-white border">
+                <div id="regions_div"></div>
+              </div>
+              <div class="col-lg-4 border inr-col bg-white">
+                <div class="inr-text">
+                  <h5 class="m-0">100k</h5>
+                  <p class="my-1">Visiters from UAE</p>
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 50%; background-color: #673ab7;"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="inr-text">
+                  <h5 class="m-0">1M</h5>
+                  <p class="my-1">Visiter from Europe</p>
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar bg-success"
+                      role="progressbar"
+                      style="width: 80%"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="inr-text">
+                  <h5 class="m-0">450k</h5>
+                  <p class="my-1">Visitors From Australia</p>
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 40%; background-color: #03a9f4;"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="inr-text">
+                  <h5 class="m-0">1B</h5>
+                  <p class="my-1">Visitors From India</p>
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 90%; background-color: grey"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <!--  -->
+
+                <div
+                  class="inr-text d-flex align-items-center justify-content-between"
+                >
+                  <div class="spn-per">
+                    <img src="download (6).png" alt="" class="img-fluid" />
+                    <h5 class="fs-6 text-muted">New Users</h5>
+                    <span class="text-muted">75%</span>
+                  </div>
+                  <div class="spn-per">
+                    <img src="c2.png" alt="" class="img-fluid" />
+                    <h5 class="fs-6 text-muted">New Purchases</h5>
+                    <span class="text-muted">50%</span>
+                  </div>
+                  <div class="spn-per">
+                    <img src="c3.png" alt="" class="img-fluid" />
+                    <h5 class="fs-6 text-muted">Bounce Rate</h5>
+                    <span class="text-muted">90%</span>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+          <!-- map end  -->
+          <div class="monthly-status mt-4">
+            <div class="row m-row">
+              <div class="col-md-6 border bg-white col-one">
+                <h5 class="mt-2 mb-3 text-muted fw-bold fs-6">Monthly Status</h5>
+                <div class="border-bottom">
+                  <canvas id="myChart"></canvas>
+                </div>
+                <div class="slight d-flex align-items-center justify-content-center gap-2 my-3">
+                  <div class="up d-flex align-items-center justify-content-center">
+                    <h6 class="m-0">10%</h6>
+                    <span class="material-icons text-success">north</span>
+                  </div>
+                  <p class="m-0 text-muted">APPL</p>
+                  <div class="up d-flex align-items-center justify-content-center">
+                    <h6 class="m-0">2%</h6>
+                    <span class="material-icons text-danger">south</span>
+                 </div>
+                 <P class="m-0 text-muted">Average</P>
+                 <div class="up d-flex align-items-center justify-content-center">
+                  <h6 class="m-0">15%</h6>
+                  <span class="material-icons text-success">north</span>
+                </div>
+                <P class="m-0 text-muted">Sales</P>
+                <div class="up d-flex align-items-center justify-content-center">
+                  <h6 class="m-0">8%</h6>
+                  <span class="material-icons text-danger">south</span>
+                </div>
+                <P class="m-0 text-muted">Profits</P> 
+                </div>
+              </div>
+  
+              <div class="col-md-6 border col-two my-md-2 my-lg-0 bg-white">
+                <h5 class="mt-2 mb-3 text-muted fw-bold fs-6">Todo</h5>
+                <div>
+                 <div class="check-main">
+                  
+                  <div class="form-check ">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Call John for Dinner
+                    </label>
+                  </div>
+
+                  <div class="form-check d-flex justify-content-between align-items-center">
+                    <div>
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Book Boss Flight
+                      </label></div>
+                    <h6 class="m-0 bg-success">2 Days</h6>
+                  </div>
+                  
+                  <div class="form-check d-flex justify-content-between align-items-center">
+                    <div>
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Hit the Gym
+                      </label></div>
+                    <h6 class="m-0 bg-danger">3 min</h6>
+                  </div>
+
+
+                  <div class="form-check d-flex justify-content-between align-items-center">
+                    <div>
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Give Purchase Report
+                      </label></div>
+                    <h6 class="m-0 bg-warning">Not important</h6>
+                  </div>
+
+
+                  <div class="form-check d-flex justify-content-between align-items-center">
+                    <div>
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Watch Game of Thrones Episode
+                      </label></div>
+                    <h6 class="m-0 bg-primary">Tomorrow</h6>
+                  </div>
+
+
+                  <div class="form-check d-flex justify-content-between align-items-center">
+                    <div>
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Give Purchase report
+                      </label></div>
+                    <h6 class="m-0 bg-success">Done</h6>
+                  </div>
+
+
+                 </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+          <!-- monthly status end  -->
+          
+      </div>
+      <!-- middle-container end  -->
+    </section>
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      google.charts.load("current", {
+        packages: ["geochart"],
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ["Country", "Popularity"],
+          ["Germany", 200],
+          ["United States", 300],
+          ["Brazil", 400],
+          ["Canada", 500],
+          ["France", 600],
+          ["RU", 700],
+        ]);
+
+        var options = {};
+
+        var chart = new google.visualization.GeoChart(
+          document.getElementById("regions_div")
+        );
+
+        chart.draw(data, options);
+
+        // //////////////
+      }
+
+      // /////////
+      const ctx = document.getElementById("myChart").getContext("2d");
+		var myChart = new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+				datasets: [{
+					label: 'Dataset 1',
+					data: [10, 0, 20, 40, 0, 60],
+					borderColor: 'red',
+					fill: false
+				}, {
+					label: 'Dataset 2',
+					data: [20, 30, 80, 50, 60, 70],
+					borderColor: 'blue',
+					fill: true
+				}]
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: 'Two-line Chart'
+				},
+				scales: {
+					yAxes: [{
+						ticks: {
+							beginAtZero: true
+						}
+					}]
+				}
+			}
+		});
+    </script>
+  </body>
+</html>
